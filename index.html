@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RONALDINIO (RND) - A Legend on the Blockchain</title>
+    <title>RONALDINIO (RND) - The Meme Coin</title>
     <style>
         body {
             background-color: black;
             color: white;
             text-align: center;
             font-family: Arial, sans-serif;
-            overflow: hidden;
         }
         .logo {
             width: 200px;
             margin-top: 20px;
         }
+        .gif-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
         .gif {
-            width: 250px;
-            margin: 20px;
-            border-radius: 15px;
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .button-container {
+            margin-top: 20px;
         }
         .button {
             background-color: yellow;
@@ -31,14 +40,11 @@
             display: inline-block;
             margin: 10px;
         }
-        .ball {
-            position: absolute;
-            width: 50px;
-            animation: bounce 3s infinite ease-in-out;
-        }
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-50px); }
+        .about-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #111;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -47,43 +53,33 @@
     <h1>RONALDINIO (RND) - A Legend on the Blockchain</h1>
     <p>The ultimate meme coin inspired by the genius of football and the magic of dribbling.</p>
     
-    <div>
-        <img src="https://media.giphy.com/media/3ohhwytHcusSCXXOUg/giphy.gif" alt="Ronaldinho Skills" class="gif">
-        <img src="https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif" alt="Ronaldinho Freestyle" class="gif">
-        <img src="https://media.giphy.com/media/xUPGcMzwkOY01nj6hi/giphy.gif" alt="Football Trick" class="gif">
+    <div class="gif-container">
+        <img src="https://media.giphy.com/media/26gJA5ECS6YvJYfR2/giphy.gif" alt="Ronaldinho Goal Celebration" class="gif">
+        <img src="https://media.giphy.com/media/l0HUqsz2jdQYElRm0/giphy.gif" alt="Ronaldinho Skills" class="gif">
+        <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" alt="Ronaldinho Dribbling" class="gif">
     </div>
     
-    <div>
+    <div class="button-container">
         <a href="https://x.com/10ronaldinho?s=21" class="button">Follow Ronaldinho on Twitter</a>
         <a href="#buy" class="button">Buy RND Now</a>
-        <a href="#bullx" class="button">Buy on BullX</a>
-        <a href="#pumpfun" class="button">Buy on Pump.fun</a>
+        <a href="#buy" class="button">Buy on BullX</a>
+        <a href="#buy" class="button">Buy on Pump.fun</a>
     </div>
     
     <p><strong>Contract Address:</strong> EpwxD3TR7qJMwwbhiALiN1BH5UyKEe4dCaSnaAvFre8c</p>
     
-    <h2>Key Features of RND:</h2>
-    <p>⚽ <strong>Football Philosophy</strong> – Inspired by Ronaldinho’s freedom and creativity.</p>
-    <p>🔥 <strong>Community of Champions</strong> – Holders become part of a dynamic fan-driven football culture.</p>
-    <p>🛠 <strong>Decentralization & Meme Magic</strong> – A token uniting crypto enthusiasts and football lovers.</p>
-    <p>🚀 <strong>Potential for Growth</strong> – Just like Ronaldinho’s career, RND has the potential to become legendary.</p>
-    
-    <h2>Why RND?</h2>
-    <p>Just like Ronaldinho dazzled the football world with his skills, RND aims to dominate the crypto space.</p>
-    
-    <script>
-        function createBalls() {
-            for (let i = 0; i < 10; i++) {
-                let ball = document.createElement("img");
-                ball.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Football_%28soccer_ball%29.svg/512px-Football_%28soccer_ball%29.svg.png";
-                ball.className = "ball";
-                ball.style.left = Math.random() * window.innerWidth + "px";
-                ball.style.top = Math.random() * window.innerHeight + "px";
-                ball.style.animationDuration = (Math.random() * 3 + 2) + "s";
-                document.body.appendChild(ball);
-            }
-        }
-        createBalls();
-    </script>
+    <div class="about-section">
+        <h2>About RONALDINIO (RND)</h2>
+        <p>RONALDINIO (RND) is a meme coin inspired by the genius of football and the magic of dribbling. This token is designed for crypto enthusiasts, sports fans, and fun lovers, merging the world of blockchain with the culture of football artistry.</p>
+        <h3>Key Features of RND:</h3>
+        <ul>
+            <li>⚽ <strong>Football Philosophy</strong> – Inspired by Ronaldinho’s freedom and creativity.</li>
+            <li>🔥 <strong>Community of Champions</strong> – Holders become part of a dynamic football-crypto culture.</li>
+            <li>🛠 <strong>Decentralization & Meme Magic</strong> – A movement uniting crypto and football lovers.</li>
+            <li>🚀 <strong>Potential for Growth</strong> – Just like Ronaldinho’s career, this meme coin has the potential to skyrocket.</li>
+        </ul>
+        <h3>Why RND?</h3>
+        <p>Just like Ronaldinho dazzled the football world with his skills, RND aims to dominate the crypto space. Whether you’re a fan of football, memes, or just looking for the next 100x coin, RND is your best bet! ⚽🔥</p>
+    </div>
 </body>
 </html>
