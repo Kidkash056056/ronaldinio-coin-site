@@ -15,7 +15,7 @@
         .logo {
             width: 200px;
             margin-top: 20px;
-            animation: bounce 2s infinite;
+            animation: pulse 2s infinite;
         }
         .gif-container {
             display: flex;
@@ -27,7 +27,7 @@
         .gif {
             width: 300px;
             border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+            box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8);
             transition: transform 0.3s;
         }
         .gif:hover {
@@ -48,27 +48,27 @@
             background-color: orange;
             transform: scale(1.05);
         }
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
     </style>
 </head>
 <body>
-    <img src="https://your-logo-url.com/logo.png" alt="RONALDINHO Logo" class="logo">
+    <img src="https://i.postimg.cc/pTNhDHDW/IMG-1958.jpg" alt="RONALDINHO Logo" class="logo">
     <h1>RONALDINHO (RND) - The Legend on Blockchain</h1>
     <p>The most legendary meme coin inspired by football magic! 🚀⚽</p>
     
     <div class="gif-container">
-        <img src="https://media.giphy.com/media/l0HUqsz2jdQYElRm0/giphy.gif" alt="Ronaldinho Skills GIF" class="gif">
-        <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" alt="Ronaldinho Dribbling GIF" class="gif">
-        <img src="https://media.giphy.com/media/26gJA5ECS6YvJYfR2/giphy.gif" alt="Ronaldinho Goal Celebration GIF" class="gif">
+        <img src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif" alt="Ronaldinho Skills GIF" class="gif">
+        <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="Ronaldinho Celebration GIF" class="gif">
+        <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Crypto Pump GIF" class="gif">
     </div>
     
     <br>
     <a href="https://x.com/10ronaldinho?s=21" class="button" target="_blank">Follow Ronaldinho on Twitter</a>
     <a href="#buy" class="button">Buy RND Now</a>
-    <a href="#community" class="button">Join Community</a>
     <a href="https://bullx.io" class="button" target="_blank">Buy on BullX</a>
     <a href="https://pump.fun" class="button" target="_blank">Buy on Pump.fun</a>
     
