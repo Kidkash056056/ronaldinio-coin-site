@@ -7,75 +7,91 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background-color: #f5f5f5;
             text-align: center;
-            color: #222;
             margin: 0;
             padding: 0;
         }
         .container {
-            max-width: 900px;
-            margin: auto;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
         }
-        h1 {
-            font-size: 2.5em;
-            color: #ff6600;
+        .hero {
+            position: relative;
+            background: url('https://i.postimg.cc/pTNhDHDW/IMG-1958.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
         }
-        .banner img {
-            width: 100%;
-            max-width: 500px;
-            border-radius: 10px;
-            animation: fadeIn 2s ease-in-out;
+        .buttons {
+            margin: 20px 0;
         }
         .buttons a {
             display: inline-block;
+            padding: 15px 30px;
             margin: 10px;
-            padding: 12px 24px;
             background-color: #ff6600;
             color: white;
-            font-size: 1.2em;
             text-decoration: none;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-        .buttons a:hover {
-            background-color: #e65c00;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         .features {
-            margin-top: 30px;
-        }
-        .features div {
-            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             padding: 20px;
-            margin: 10px 0;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+        .feature-box {
+            width: 80%;
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .gif-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gif-container img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
+    <div class="hero">
+        RONALDINIO (RND) - A Legend on the Blockchain
+    </div>
     <div class="container">
-        <h1>RONALDINIO (RND) - A Legend on the Blockchain</h1>
         <p>The ultimate meme coin inspired by the genius of football and the magic of dribbling.</p>
-        <div class="banner">
-            <img src="https://i.postimg.cc/pTNhDHDW/IMG-1958.jpg" alt="Ronaldinio Ballon d'Or">
-        </div>
         <div class="buttons">
-            <a href="#">Follow on Twitter</a>
+            <a href="https://twitter.com/10ronaldinho">Follow on Twitter</a>
             <a href="#">Buy RND Now</a>
             <a href="#">Trade on BullX</a>
             <a href="#">Trade on Pump.fun</a>
         </div>
+        <div class="gif-container">
+            <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Ronaldinho skill">
+            <img src="https://media.giphy.com/media/l0HlQ7LRalDfScVP2/giphy.gif" alt="Solana Animation">
+            <img src="https://media.giphy.com/media/26gJA7cyogBRXc2B6/giphy.gif" alt="Football Goal">
+        </div>
         <div class="features">
-            <div><strong>⚽ Football Philosophy</strong> - Inspired by Ronaldinho’s freedom and creativity.</div>
-            <div><strong>🔥 Community of Champions</strong> - Join the strongest meme coin football community.</div>
-            <div><strong>⚡ Decentralization & Meme Magic</strong> - Not just another meme coin, but a movement.</div>
-            <div><strong>🚀 Potential for Growth</strong> - Ready to skyrocket like Ronaldinho’s legendary career.</div>
+            <div class="feature-box">⚽ <strong>Football Philosophy</strong> - Inspired by Ronaldinho’s freedom and creativity.</div>
+            <div class="feature-box">🔥 <strong>Community of Champions</strong> - Join the strongest meme coin football community.</div>
+            <div class="feature-box">⚡ <strong>Decentralization & Meme Magic</strong> - Not just another meme coin, but a movement.</div>
+            <div class="feature-box">🚀 <strong>Potential for Growth</strong> - Ready to skyrocket like Ronaldinho’s legendary career.</div>
         </div>
     </div>
 </body>
